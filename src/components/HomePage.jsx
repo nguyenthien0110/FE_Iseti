@@ -36,7 +36,7 @@ export const HomePage = () => {
 
     return (
         <div className="text-center mt-10">
-            <h1 className="text-5xl font-bold text-gray-800">CRUD Operations</h1>
+            <h1 className="text-5xl font-bold">CRUD</h1>
             <div className="mt-10">
                 <form onSubmit={handleSubmit} className="mb-5">
                     <input
@@ -49,7 +49,7 @@ export const HomePage = () => {
                     />
                     <button
                         type="submit"
-                        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                        className="bg-blue-500 hover:bg-blue-700 text-gray-800 font-bold py-2 px-4 rounded"
                     >
                         {formData.id ? "Update" : "Add"}
                     </button>
